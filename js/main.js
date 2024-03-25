@@ -267,40 +267,6 @@ $(function () {
     });
   });
 
-  /* ******* Start Percentage loading screen interactions ********/
-  let percentage = 0;
-  let LoadingCounter = setInterval(function () {
-    if (percentage <= 100) {
-      // $('#loading-screen ').css('opacity', (100 - percentage));
-      $("#loading-screen .loading-counter").text(percentage + "%");
-      $("#loading-screen .bar").css("width", (100 - percentage) / 2 + "%");
-      $("#loading-screen .progress-line").css(
-        "transform",
-        "scale(" + percentage / 100 + ")"
-      );
-      percentage++;
-    } else {
-      $("#loading-screen").fadeOut(500);
-      setTimeout(() => {
-        $("#loading-screen").remove();
-      }, 1500);
-      clearInterval(LoadingCounter);
-    }
-  }, 10);
-
-  main_window.on("scroll", function () {
-    if ($(this).scrollTop() > 50) {
-      //show back to top btn
-      toTopBtn.addClass("show");
-    } else {
-      //hide back to top btn
-      toTopBtn.removeClass("show");
-    }
-
-    // to make sure the counter will start counting while its section apear on the screen
-    fireCounter();
-  });
-
   /*************Start Contact Form Functionality************/
 
   const contactForm = $("#contact-us-form"),
