@@ -68,9 +68,11 @@
     &:hover {
       .play-btn {
         background-color: $clr-white;
+
         .icon {
           color: $clr-main;
         }
+
         &::before,
         &::after {
           background-color: inherit;
@@ -190,6 +192,7 @@
 
 .play-btn-col-dir {
   @extend %play-btn;
+
   .play-video-btn {
     flex-direction: column;
   }
@@ -262,6 +265,7 @@
   .sc-list {
     @extend %sc-list;
   }
+
   &.dir-row {
     padding: 0.75rem 0;
 
@@ -278,13 +282,17 @@
 
   &.dir-col {
     padding: 0 0.75rem;
+
     .sc-list {
       flex-direction: column;
+
       .sc-item {
         margin-bottom: 10px;
+
         &:last-of-type {
           margin-bottom: 0;
         }
+
         &:hover {
           transform: translateX(5px * $x-axe-direction);
         }
@@ -300,9 +308,11 @@
         color: inherit;
         background-color: transparent;
         margin-#{$end-direction}: 1.5rem;
+
         &:last-child {
           margin-#{$end-direction}: 0;
         }
+
         &:hover {
           background-color: transparent;
           box-shadow: none;
@@ -314,6 +324,7 @@
       }
     }
   }
+
   // classes for social icons different sizes
   &.sc-size-16 {
     .sc-item {
@@ -322,6 +333,7 @@
       font-size: 10px;
     }
   }
+
   &.sc-size-24 {
     .sc-item {
       width: 24px;
@@ -329,6 +341,7 @@
       font-size: 0.75rem;
     }
   }
+
   &.sc-size-32 {
     .sc-item {
       width: 32px;
@@ -336,6 +349,7 @@
       font-size: 0.85rem;
     }
   }
+
   &.sc-size-40 {
     .sc-item {
       width: 40px;
@@ -343,6 +357,7 @@
       font-size: 1rem;
     }
   }
+
   &.sc-size-50 {
     .sc-item {
       width: 50px;
@@ -390,10 +405,12 @@
     .icon {
       color: $clr-dark-blue;
     }
+
     .go-light {
       visibility: visible;
       opacity: 1;
     }
+
     .go-dark {
       visibility: hidden;
       opacity: 1;
@@ -411,6 +428,7 @@
       visibility: hidden;
       opacity: 0;
     }
+
     .go-dark {
       visibility: visible;
       opacity: 1;

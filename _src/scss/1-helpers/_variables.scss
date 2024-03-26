@@ -1,6 +1,7 @@
 @function hexToRgb($hexcode) {
   @return #{red($hexcode), green($hexcode), blue($hexcode)};
 }
+
 $fonts: (
   "main": "",
 );
@@ -24,6 +25,7 @@ $colors: (
   "success": #217234,
   "warning": #9b6a01
 );
+
 :root {
   /*Colors CSS Varibales*/
   @each $key, $val in $colors {
@@ -31,6 +33,7 @@ $colors: (
     --clr-#{$key}: #{$val};
     --clr-#{$key}-rgb: #{hexToRgb($val)};
   }
+
   --ltr-main-font-f: "Jost", "sans-serif";
   --rtl-main-font-f: "Tajawal", "sans-serif";
 }
