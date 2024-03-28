@@ -15,9 +15,17 @@
   .client-logo {
     background: $clr-white;
     border-radius: 0.5rem;
+    height: 125px;
+    display: flex;
+    > a {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
   }
   .logo {
-    max-height: 125px;
+    // max-height: 125px;
     border-radius: 0.25rem;
     filter: grayscale(1);
     &:hover {

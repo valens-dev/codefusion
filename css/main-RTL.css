@@ -1070,6 +1070,56 @@ a:hover {
   padding: 0 0.5rem;
 }
 
+.language-switcher {
+  position: relative;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out 0s;
+}
+.language-switcher.dark-theme {
+  background-color: var(--clr-white);
+}
+.language-switcher.dark-theme .icon {
+  color: var(--clr-dark-blue);
+}
+.language-switcher.dark-theme .go-light {
+  visibility: visible;
+  opacity: 1;
+}
+.language-switcher.dark-theme .go-dark {
+  visibility: hidden;
+  opacity: 1;
+}
+.language-switcher.light-theme {
+  background-color: var(--clr-dark-blue);
+}
+.language-switcher.light-theme .icon {
+  color: var(--clr-white);
+}
+.language-switcher.light-theme .go-light {
+  visibility: hidden;
+  opacity: 0;
+}
+.language-switcher.light-theme .go-dark {
+  visibility: visible;
+  opacity: 1;
+}
+.language-switcher .switch-inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  visibility: visible;
+  opacity: 1;
+}
+.language-switcher .icon {
+  display: flex;
+  font-size: 1.25rem;
+  padding: 0 0.5rem;
+}
+
 body.rounded-btns .btn-solid,
 body.rounded-btns .btn-outline,
 body.rounded-btns .portfolio-btn,
@@ -1752,6 +1802,7 @@ body.rounded-btns .read-more {
   align-items: center;
   justify-content: space-between;
   padding: 0;
+  height: 90px;
 }
 @media (max-width: 1199px) {
   .header-basic .menu-navbar {
@@ -2770,37 +2821,7 @@ body.rounded-btns .read-more {
   align-items: center;
   justify-content: space-between;
 }
-.about .text-area .cta-area .signature {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.about .text-area .cta-area .signature .signature-img {
-  max-width: 200px;
-  width: 200px;
-  height: 70px;
-  background-image: url("../assets/images/about/signature-dark.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-@media (max-width: 575px) {
-  .about .text-area .cta-area .signature .signature-img {
-    max-width: 150px;
-    max-height: 50px;
-  }
-}
-.about .text-area .cta-area .signature .signature-name {
-  display: block;
-  color: var(--clr-main);
-  margin-top: -0.5rem;
-  text-transform: capitalize;
-}
-@media (max-width: 575px) {
-  .about .text-area .cta-area .signature .signature-name {
-    font-size: 0.85rem;
-  }
-}
+
 .about .img-area .about-img {
   transform: scaleX(-1);
 }
@@ -3326,9 +3347,18 @@ body.rounded-btns .read-more {
 .our-clients .client-logo {
   background: var(--clr-white);
   border-radius: 0.5rem;
+  height: 125px;
+  display: flex;
+}
+.our-clients .client-logo > a {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .our-clients .logo {
-  max-height: 125px;
+  /* max-height: 125px; */
   border-radius: 0.25rem;
   filter: grayscale(1);
 }
@@ -5179,9 +5209,7 @@ body.dark-theme .custom-form-area.input-under-lined textarea {
 body.dark-theme .team-member .profile {
   background-color: var(--clr-semi-dark-blue);
 }
-body.dark-theme .about .cta-area .signature .signature-img {
-  background-image: url("../assets/images/about/signature-light.png");
-}
+
 body.dark-theme .about .stats-counter.stats-cards .stat-box {
   background: var(--clr-semi-dark-blue);
 }

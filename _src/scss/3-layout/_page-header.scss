@@ -140,6 +140,7 @@ $padding-for-hero-section: $link-height;
     align-items: center;
     justify-content: space-between;
     padding: 0;
+    height: 90px;
 
     @include screen-lg {
       height: $link-height;

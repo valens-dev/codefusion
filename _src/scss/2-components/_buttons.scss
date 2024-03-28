@@ -505,4 +505,64 @@ body {
   }
 }
 
+.language-switcher {
+  position: relative;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  @include ma-transition(all, 0.3s);
+
+  &.dark-theme {
+    background-color: $clr-white;
+
+    .icon {
+      color: $clr-dark-blue;
+    }
+
+    .go-light {
+      visibility: visible;
+      opacity: 1;
+    }
+
+    .go-dark {
+      visibility: hidden;
+      opacity: 1;
+    }
+  }
+
+  &.light-theme {
+    background-color: $clr-dark-blue;
+
+    .icon {
+      color: $clr-white;
+    }
+
+    .go-light {
+      visibility: hidden;
+      opacity: 0;
+    }
+
+    .go-dark {
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+
+  .switch-inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .icon {
+    display: flex;
+    font-size: 1.25rem;
+    padding: 0 0.5rem;
+  }
+}
+
 /* End buttons global rules*/
