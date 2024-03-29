@@ -11,3 +11,4 @@ toggleLanguageButton.on("click", function () {
 
   stylesheetLink.attr('href', newStylesheet);
 });
+ 
