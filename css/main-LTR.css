@@ -3757,6 +3757,7 @@ body.rounded-btns .read-more {
 }
 
 .contact-info-card {
+  display: flex;
   font-weight: 600;
   padding: 0;
   padding-bottom: 1rem;
@@ -3793,7 +3794,7 @@ body.rounded-btns .read-more {
   margin: 0;
 }
 .footer-menu-item {
-  display: block;
+  display: flex;
   position: relative;
   padding-bottom: 1rem;
 }
