@@ -1174,6 +1174,7 @@ body.rounded-btns .read-more {
   padding: 0;
 }
 .breadcrumb .icon {
+  display: inline-block;
   margin-right: 0.5rem;
 }
 .breadcrumb-item {
@@ -5218,6 +5219,10 @@ body.dark-theme .about .stats-counter.stats-cards .stat-box {
   height: 35px;
   width: 35px;
   margin: 0 10px;
+}
+
+.col-12.office-information-panel {
+  width: 100%;
 }
 
 /*    End dark theme rules  */ /*# sourceMappingURL=main-LTR.css.map */

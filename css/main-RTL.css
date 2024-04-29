@@ -1174,6 +1174,7 @@ body.rounded-btns .read-more {
   padding: 0;
 }
 .breadcrumb .icon {
+  display: inline-block;
   margin-left: 0.5rem;
 }
 .breadcrumb-item {
