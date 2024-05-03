@@ -5110,6 +5110,7 @@ body.rounded-btns .read-more {
 .stats .stat-box {
   position: relative;
   text-align: center;
+  padding-bottom: 30px;
 }
 @media (max-width: 991px) {
   .stats .stat-box {
@@ -5124,6 +5125,7 @@ body.rounded-btns .read-more {
 .stats .stat-box-inner {
   text-align: center;
   position: relative;
+  height: 100%;
   padding: 2rem;
   color: var(--clr-white);
   background-color: rgba(var(--clr-dark-blue-rgb), 0.25);
