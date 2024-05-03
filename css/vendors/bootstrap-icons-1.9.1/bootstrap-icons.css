@@ -1282,6 +1282,7 @@ url("./fonts/bootstrap-icons.woff?8d200481aa7f02a2d63a331fc782cfaf") format("wof
 .bi-tsunami::before { content: "\f5eb"; }
 .bi-tv-fill::before { content: "\f5ec"; }
 .bi-tv::before { content: "\f5ed"; }
+.bi-karlos::before { content: "\F8DB"; }
 .bi-twitch::before { content: "\f5ee"; }
 .bi-twitter::before { content: "\f5ef"; }
 .bi-type-bold::before { content: "\f5f0"; }
@@ -1874,3 +1875,4 @@ url("./fonts/bootstrap-icons.woff?8d200481aa7f02a2d63a331fc782cfaf") format("wof
 .bi-fuel-pump-diesel::before { content: "\f83c"; }
 .bi-fuel-pump-fill::before { content: "\f83d"; }
 .bi-fuel-pump::before { content: "\f83e"; }
+.bi-twitter-x::before { content: "\f8db"; }

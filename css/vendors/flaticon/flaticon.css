@@ -732,3 +732,6 @@ i[class*=" flaticon-"]:before {
 .flaticon-stellar-coin:before {
   content: "\f1ed";
 }
+.flaticon-twitter-x:before {
+  content: "\f8db";
+}
