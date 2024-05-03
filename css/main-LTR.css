@@ -3360,11 +3360,11 @@ body.rounded-btns .read-more {
 .our-clients .logo {
   /* max-height: 125px; */
   border-radius: 0.25rem;
-  filter: grayscale(1);
+  /* filter: grayscale(1); */
 }
-.our-clients .logo:hover {
+/* .our-clients .logo:hover {
   filter: grayscale(0);
-}
+} */
 .our-clients-blocks {
   background: var(--clr-semi-dark-blue);
 }
@@ -3787,6 +3787,11 @@ body.rounded-btns .read-more {
 .contact-info-card .info:hover {
   color: var(--clr-main);
   transform: translateX(0.25rem);
+}
+
+.contact-info-card .info.centered {
+  display: flex;
+  align-items: center;
 }
 
 .footer-menu {
