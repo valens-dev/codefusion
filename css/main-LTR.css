@@ -5232,5 +5232,10 @@ body.dark-theme .about .stats-counter.stats-cards .stat-box {
   width: 100%;
 }
 
+.content-block.brief-introduction {
+  /* padding-top: 50px;
+  padding-bottom: 50px; */
+}
+
 
 /*    End dark theme rules  */ /*# sourceMappingURL=main-LTR.css.map */
