@@ -1674,7 +1674,6 @@ body.rounded-btns .read-more {
   }
 }
 .header-search-box .search-form .search-btn {
-  -webkit-appearance: none;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -3395,10 +3394,10 @@ body.rounded-btns .read-more {
 
 /*   End our-clients Section   */
 /*   Start faq Section   */
-.faq {
+/* .faq { */
   /*Start FAQ-Accordion Rules*/
   /*End FAQ-Accordion Rules*/
-}
+/* } */
 .faq .faq-accordion .card {
   background-color: transparent;
   padding: 1rem;
@@ -4032,7 +4031,6 @@ body.rounded-btns .read-more {
   border-radius: 0.25rem;
   padding: 0.5rem 1rem;
   outline: none;
-  -webkit-appearance: none;
   width: 100%;
   transition: all 0.5s ease-in-out 0s;
 }
@@ -4043,7 +4041,6 @@ body.rounded-btns .read-more {
   position: absolute;
   width: 50px;
   height: 100%;
-  -webkit-appearance: none;
   border: none;
   outline: none;
   background: var(--clr-main);
@@ -4796,7 +4793,6 @@ body.rounded-btns .read-more {
   padding: 0.5rem 1rem;
   outline: none;
   color: var(--clr-main);
-  -webkit-appearance: none;
   width: 100%;
   transition: all 0.5s ease-in-out 0s;
 }
@@ -4807,7 +4803,6 @@ body.rounded-btns .read-more {
   position: absolute;
   width: 70px;
   height: 100%;
-  -webkit-appearance: none;
   border: none;
   outline: none;
   background: var(--clr-main);
@@ -5360,6 +5355,24 @@ body.dark-theme .about .stats-counter.stats-cards .stat-box {
 @media screen and (max-width: 992px) {
   .image.our-team {
     max-width: 550px;
+  }
+}
+
+.info-panel .column-two img {
+  width: 100%;
+  border-radius: 9px;
+}
+
+.contact-info-panel .info-panel.employee-contact {
+  width: 100%;
+  gap: 50px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .contact-info-panel .info-panel.employee-contact {
+    flex-direction: column-reverse;
   }
 }
 
