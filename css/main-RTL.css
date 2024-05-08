@@ -5231,4 +5231,137 @@ body.dark-theme .about .stats-counter.stats-cards .stat-box {
   margin: 0 10px;
 }
 
+/* timeline styles */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: var(--clr-accent);
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+.timeline .container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+.timeline .container.left::after,
+.timeline .container.right::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color: var(--clr-main);
+  border: 4px solid white;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.timeline .container.left::after {
+  right: -15.5px;
+}
+
+.timeline .container.right::after {
+  left: -15.5px;
+}
+
+.left {
+  left: -25.4%;
+}
+
+.right {
+  left: 25.4%;
+}
+
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid var(--clr-main);
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent var(--clr-main);
+}
+
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid var(--clr-main);
+  border-width: 10px 10px 10px 0;
+  border-color: transparent var(--clr-main) transparent transparent;
+}
+
+.right::after {
+  left: -17px;
+}
+
+.timeline .content {
+  padding: 20px 30px;
+  background-color: var(--clr-main);
+  position: relative;
+  border-radius: 6px;
+}
+
+@media screen and (max-width: 600px) {
+  .timeline::after {
+    left: 31px;
+  }
+
+  .timeline .container {
+    width: 100%;
+    position: static;
+  }
+
+  .container::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+
+  .left::after, .right::after {
+    left: 15px;
+  }
+
+  .right {
+    left: -25.4%;
+  }
+
+
+  .container::before {
+    display: none;
+  }
+}
+
+.image.our-team {
+  max-width: 45%;
+}
+
+@media screen and (max-width: 992px) {
+  .image.our-team {
+    max-width: 550px;
+  }
+}
+
+
 /*    End dark theme rules  */ /*# sourceMappingURL=main-RTL.css.map */

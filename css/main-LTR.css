@@ -5359,6 +5359,16 @@ body.dark-theme .about .stats-counter.stats-cards .stat-box {
   }
 }
 
+.image.our-team {
+  max-width: 45%;
+}
+
+@media screen and (max-width: 992px) {
+  .image.our-team {
+    max-width: 550px;
+  }
+}
+
 
 
 /*    End dark theme rules  */ /*# sourceMappingURL=main-LTR.css.map */
