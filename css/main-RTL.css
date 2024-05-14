@@ -5380,5 +5380,9 @@ body.dark-theme .about .stats-counter.stats-cards .stat-box {
   }
 }
 
+.portfolio .item img.portfolio-img {
+  object-fit: contain;
+}
+
 
 /*    End dark theme rules  */ /*# sourceMappingURL=main-RTL.css.map */
