@@ -8,12 +8,12 @@ body {
     // header
     .header-basic {
       .header-logo {
-        .logo-img {
-          &.light-logo {
+        .img {
+          &.light {
             display: block;
           }
 
-          &.dark-logo {
+          &.dark {
             display: none;
           }
         }
@@ -27,12 +27,12 @@ body {
 
       &.inner-page-header {
         .header-logo {
-          .logo-img {
-            &.light-logo {
+          .img {
+            &.light {
               display: block;
             }
 
-            &.dark-logo {
+            &.dark {
               display: none;
             }
           }

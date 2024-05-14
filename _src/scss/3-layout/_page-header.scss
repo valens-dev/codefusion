@@ -21,12 +21,12 @@ $padding-for-hero-section: $link-height;
     color: $clr-white;
   }
   .header-logo {
-    .logo-img {
-      &.light-logo {
+    .img {
+      &.light {
         display: block;
       }
 
-      &.dark-logo {
+      &.dark {
         display: none;
       }
     }
@@ -184,17 +184,17 @@ $padding-for-hero-section: $link-height;
     align-items: center;
     justify-content: center;
 
-    .logo-img {
+    .img {
       display: block;
       max-width: 10rem;
       max-height: calc(#{$link-height} - 10px);
       @include ma-transition;
 
-      &.light-logo {
+      &.light {
         display: none;
       }
 
-      &.dark-logo {
+      &.dark {
         display: block;
       }
     }
@@ -358,12 +358,12 @@ $padding-for-hero-section: $link-height;
 
   @include screen-lg {
     .header-logo {
-      .logo-img {
-        &.light-logo {
+      .img {
+        &.light {
           display: block;
         }
 
-        &.dark-logo {
+        &.dark {
           display: none;
         }
       }
@@ -381,12 +381,12 @@ $padding-for-hero-section: $link-height;
 
   &.inner-page-header {
     .header-logo {
-      .logo-img {
-        &.light-logo {
+      .img {
+        &.light {
           display: block;
         }
 
-        &.dark-logo {
+        &.dark {
           display: none;
         }
       }

@@ -9,10 +9,10 @@
     }
   }
 
-  .clients-logos {
+  .clients {
     text-align: center;
   }
-  .client-logo {
+  .client {
     background: $clr-white;
     border-radius: 0.5rem;
     height: 125px;
@@ -24,7 +24,7 @@
       align-items: center;
     }
   }
-  .logo {
+  .image {
     // max-height: 125px;
     border-radius: 0.25rem;
     filter: grayscale(1);
