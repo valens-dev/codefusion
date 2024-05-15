@@ -5383,6 +5383,8 @@ body.dark-theme .about .stats-counter.stats-cards .stat-box {
 
 .portfolio .item img.portfolio-img {
   object-fit: contain;
+  background-color: #09aff4;
+  border-radius: 9px;
 }
 
 /*    End dark theme rules  */ /*# sourceMappingURL=main-LTR.css.map */
