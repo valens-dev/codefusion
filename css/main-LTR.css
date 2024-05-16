@@ -5387,10 +5387,14 @@ body.dark-theme .about .stats-counter.stats-cards .stat-box {
   border-radius: 9px;
 }
 
+.controls-box {
+  margin-left: 20px;
+}
+
 .controls-box .saudi-vision-wrapper {
   width: 80px;
   max-height: 100%;
-  padding-right: 10px;
+  padding-left: 10px;
 } 
 
 .controls-box .saudi-vision-wrapper a {
@@ -5407,4 +5411,16 @@ body.dark-theme .about .stats-counter.stats-cards .stat-box {
   height: 100%;
 } 
 
+@media (max-width: 425px) {
+  .controls-box {
+    margin-left: 0;
+    margin-right: 20px;
+  }
+  .controls-box .saudi-vision-wrapper {
+    width: 60px;
+  }
+  .header-logo img.img {
+    width: 100px;
+  }
+}
 /*    End dark theme rules  */ /*# sourceMappingURL=main-LTR.css.map */
