@@ -3073,6 +3073,10 @@ body.rounded-btns .read-more {
   color: var(--clr-main);
   margin-bottom: 0.75rem;
 }
+.portfolio-single .info-area .project-info .info .title-rtl {
+  color: var(--clr-main);
+  margin-bottom: 0.75rem;
+}
 .portfolio-single .info-area .project-info .info .detail {
   display: inline-block;
   font-size: 1.25rem;
