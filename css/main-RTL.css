@@ -5386,6 +5386,10 @@ body.dark-theme .about .stats-counter.stats-cards .stat-box {
   border-radius: 9px;
 }
 
+.portfolio .item .portfolio-img.thumbnail {
+  object-fit: contain;
+}
+
 .controls-box {
   margin-left: 20px;
 }
