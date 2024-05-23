@@ -5350,6 +5350,12 @@ body.dark-theme .about .stats-counter.stats-cards .stat-box {
   .container::before {
     display: none;
   }
+
+  .timeline .container.left::after, 
+  .timeline .container.right::after,
+  .timeline::after {
+    content: none;
+  }
 }
 
 .image.our-team {
