@@ -1766,6 +1766,7 @@ body.rounded-btns .read-more {
 }
 .header-basic .controls-box .menu-toggler {
   margin-right: 1rem;
+  margin-left: 10px;
   display: none;
 }
 .header-basic .controls-box .menu-toggler > span {
@@ -5388,13 +5389,12 @@ body.dark-theme .about .stats-counter.stats-cards .stat-box {
 }
 
 .controls-box {
-  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .controls-box .saudi-vision-wrapper {
-  width: 80px;
+  width: 50px;
   max-height: 100%;
-  padding-left: 10px;
 }
 
 .controls-box .saudi-vision-wrapper a {
@@ -5413,11 +5413,10 @@ body.dark-theme .about .stats-counter.stats-cards .stat-box {
 
 @media (max-width: 425px) {
   .controls-box {
-    margin-left: 0;
-    margin-right: 20px;
+    margin: 0;
   }
   .controls-box .saudi-vision-wrapper {
-    width: 60px;
+    width: 50px;
   }
   .header-logo img.img {
     width: 100px;
