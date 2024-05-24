@@ -5171,16 +5171,10 @@ body.dark-theme .header-basic .header-logo .img.dark {
 body.dark-theme .header-basic .controls-box .header-search-btn {
   color: var(--clr-white);
 }
-body.dark-theme
-  .header-basic.inner-page-header
-  .header-logo
-  .img.light {
+body.dark-theme .header-basic.inner-page-header .header-logo .img.light {
   display: block;
 }
-body.dark-theme
-  .header-basic.inner-page-header
-  .header-logo
-  .img.dark {
+body.dark-theme .header-basic.inner-page-header .header-logo .img.dark {
   display: none;
 }
 body.dark-theme .page-hero .hero-social-icons .sc-list .sc-item .sc-link {
@@ -5348,7 +5342,7 @@ body.dark-theme .about .stats-counter.stats-cards .stat-box {
     display: none;
   }
 
-  .timeline .container.left::after, 
+  .timeline .container.left::after,
   .timeline .container.right::after,
   .timeline::after {
     content: none;
@@ -5401,7 +5395,7 @@ body.dark-theme .about .stats-counter.stats-cards .stat-box {
   width: 80px;
   max-height: 100%;
   padding-left: 10px;
-} 
+}
 
 .controls-box .saudi-vision-wrapper a {
   width: 100%;
@@ -5415,7 +5409,7 @@ body.dark-theme .about .stats-counter.stats-cards .stat-box {
 .controls-box .saudi-vision-wrapper a img.img {
   width: 100%;
   height: 100%;
-} 
+}
 
 @media (max-width: 425px) {
   .controls-box {

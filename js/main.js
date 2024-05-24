@@ -265,7 +265,6 @@ $(function () {
         });
       }
     });
-
   });
   /* ******* Start Percentage loading interactions ********/
 

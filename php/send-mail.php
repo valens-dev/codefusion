@@ -15,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 	}
 
 
-	if (isset ($name) && isset ($email) && isset ($subject) && isset ($message) && is_email_valid($email)) {
+	if (isset($name) && isset($email) && isset($subject) && isset($message) && is_email_valid($email)) {
 
 		// Avoid Email Injection and Mail Form Script Hijacking
 		$pattern = "/(content-type|bcc:|cc:|to:)/i";

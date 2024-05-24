@@ -3399,8 +3399,8 @@ body.rounded-btns .read-more {
 /*   End our-clients Section   */
 /*   Start faq Section   */
 /* .faq { */
-  /*Start FAQ-Accordion Rules*/
-  /*End FAQ-Accordion Rules*/
+/*Start FAQ-Accordion Rules*/
+/*End FAQ-Accordion Rules*/
 /* } */
 .faq .faq-accordion .card {
   background-color: transparent;
@@ -5178,16 +5178,10 @@ body.dark-theme .header-basic .header-logo .img.dark {
 body.dark-theme .header-basic .controls-box .header-search-btn {
   color: var(--clr-white);
 }
-body.dark-theme
-  .header-basic.inner-page-header
-  .header-logo
-  .img.light {
+body.dark-theme .header-basic.inner-page-header .header-logo .img.light {
   display: block;
 }
-body.dark-theme
-  .header-basic.inner-page-header
-  .header-logo
-  .img.dark {
+body.dark-theme .header-basic.inner-page-header .header-logo .img.dark {
   display: none;
 }
 body.dark-theme .page-hero .hero-social-icons .sc-list .sc-item .sc-link {
@@ -5238,7 +5232,7 @@ body.dark-theme .about .stats-counter.stats-cards .stat-box {
 }
 
 .timeline::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 6px;
   background-color: var(--clr-accent);
@@ -5257,7 +5251,7 @@ body.dark-theme .about .stats-counter.stats-cards .stat-box {
 
 .timeline .container.left::after,
 .timeline .container.right::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 25px;
   height: 25px;
@@ -5338,7 +5332,8 @@ body.dark-theme .about .stats-counter.stats-cards .stat-box {
     border-color: transparent white transparent transparent;
   }
 
-  .left::after, .right::after {
+  .left::after,
+  .right::after {
     left: 15px;
   }
 
@@ -5346,12 +5341,11 @@ body.dark-theme .about .stats-counter.stats-cards .stat-box {
     left: -25.4%;
   }
 
-
   .container::before {
     display: none;
   }
 
-  .timeline .container.left::after, 
+  .timeline .container.left::after,
   .timeline .container.right::after,
   .timeline::after {
     content: none;
@@ -5408,7 +5402,7 @@ body.dark-theme .about .stats-counter.stats-cards .stat-box {
   width: 80px;
   max-height: 100%;
   padding-left: 10px;
-} 
+}
 
 .controls-box .saudi-vision-wrapper a {
   width: 100%;
@@ -5422,7 +5416,7 @@ body.dark-theme .about .stats-counter.stats-cards .stat-box {
 .controls-box .saudi-vision-wrapper a img.img {
   width: 100%;
   height: 100%;
-} 
+}
 
 @media (max-width: 425px) {
   .controls-box {
