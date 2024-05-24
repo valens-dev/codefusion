@@ -1,4 +1,3 @@
 User-agent: *
-Disallow: 
-Disallow: /cgi-bin/
+Disallow: /404.html
 Sitemap: https://codefusion.biz/sitemap.xml
